@@ -1,5 +1,5 @@
 from django.contrib import admin
-from puntocontrolapp.models import Registro,UnidadTransporte,PuntoRuta,PuntoControl
+from apps.puntocontrolapp.models import Registro,UnidadTransporte,PuntoRuta,PuntoControl
 
 # Register your models here.
 admin.site.register(Registro)
